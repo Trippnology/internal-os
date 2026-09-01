@@ -1,0 +1,30 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.sublime-*
+sftp-config.json
+.idea/
+.vscode/
+
+# Dependencies
+node_modules/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Environment variables
+.env
+.env_*
+
+# Local settings
+.claude/settings.local.json
