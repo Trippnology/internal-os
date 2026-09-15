@@ -39,6 +39,14 @@ Available skills:
 
 Use `.claude/skills/skill/SKILL.md` as template for new skills.
 
+### agents/
+
+Dedicated agent definitions (see `agents/EXAMPLE.md` for the SOUL.md format).
+
+**Structure:** `agents/{name}/SOUL.md` + `agents/{name}/memory/`
+
+Invoke as a persona ("start the <name> agent" — the assistant loads the SOUL.md and works in that role) or via a thin subagent wrapper in your agent platform's config pointing at the SOUL.md. The repo is the source of truth; platform configs are pointers.
+
 ### projects/
 
 Active project work. Create one folder per project with its own `README.md` (see `projects/EXAMPLE.md` for the format).

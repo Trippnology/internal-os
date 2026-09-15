@@ -59,6 +59,7 @@ The system ships empty by design. Run the skill and your agent interviews you �
 internal-os/
 ├── .claude/
 │   └── skills/           # Reusable procedures (invoke via /skill-name)
+├── agents/               # Dedicated agent definitions (SOUL.md + memory/, see EXAMPLE.md)
 ├── future/               # Forward-looking ideas and research (not active work)
 ├── knowledge/
 │   ├── customers/        # Client context, history, preferences
@@ -89,6 +90,10 @@ internal-os/
 | `skill`           | Template for creating new skills                    | When you notice a repeatable pattern  |
 
 **Usage**: Invoke with `/skill-name` or when the assistant detects the trigger pattern.
+
+### Agents (`agents/`)
+
+Dedicated agents — research, drafting, whatever repeats — defined as portable `SOUL.md` files with a `memory/` folder for continuity across runs (see `agents/EXAMPLE.md`). Run them as an in-session persona ("start the research agent") or through a thin subagent wrapper in your agent platform's config that points at the SOUL.md. The repo stays the source of truth.
 
 ### Knowledge (`knowledge/`)
 
