@@ -283,6 +283,12 @@ Link related entries with relative markdown links in a `## Related` section at t
 
 _This system grows with you. Start small, add as you go._
 
+## See Also
+
+Similar systems worth a look if you want to borrow elements:
+
+- [The Cognitive File System](https://www.bionicbusiness.com/p/cognitive-file-system-agents) — agent-focused take on the same idea: per-agent `SOUL.md` definitions, decision/outcome memory logs, and business context files for a fleet of agents rather than a solo operator
+
 ---
 
 Created by [Trippnology](https://trippnology.com/), inspired by Andre Karpathy's [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
