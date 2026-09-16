@@ -30,6 +30,13 @@ Steps or logic for this skill.
 
 The sections below are **optional** but recommended. Existing skills remain valid without them; new skills benefit from them. Add them when a skill is refined past its first draft.
 
+## Skill Folders *(optional)*
+
+Subfolders beside the SKILL.md. Create only when the skill has real content for them — empty scaffolding is ceremony.
+
+- `references/` — material the skill reads at runtime: inventories, checklists, schemas. SKILL.md stays the entry point; link reference files from it (e.g. under `## Related`).
+- `scripts/` — executable helpers the skill runs.
+
 ## Expected Outcome *(optional)*
 
 What success looks like when this skill runs correctly. A concrete, checkable signal — not a vague goal. Helps future sessions tell a clean run from a broken one.
