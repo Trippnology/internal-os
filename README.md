@@ -63,6 +63,7 @@ internal-os/
 ├── future/               # Forward-looking ideas and research (not active work)
 ├── knowledge/
 │   ├── customers/        # Client context, history, preferences
+│   ├── decisions/        # Paired decision/outcome records (see EXAMPLE.md)
 │   ├── frameworks/       # Methodologies, mental models
 │   ├── me/               # Personal context
 │   │   └── experiences/  # Timestamped learnings, insights
@@ -99,6 +100,7 @@ Dedicated agents — research, drafting, whatever repeats — defined as portabl
 
 - **`me/`** — Personal context (technical profile, business, working style). `experiences/` holds timestamped learnings.
 - **`customers/`** — One file per client (context, history, preferences). Use whatever location conventions fit your setup.
+- **`decisions/`** — One file per decision, paired with its later-verified outcome.
 - **`frameworks/`** — Methodologies and mental models.
 - **`raw/`** — Process documents and reference material.
 - **`references.md`** — Sibling-repo registry (referenced, not ingested).
@@ -129,8 +131,8 @@ Each subfolder is a project with its own README providing context and current st
 name: topic-name
 description: One-line summary
 metadata:
-	type: user|reference|project|customer|framework|experience|future
-	# plus type-specific fields (location, purpose, status, started, date...)
+ 	type: user|reference|project|customer|framework|experience|future|decision
+ 	# plus type-specific fields (location, purpose, status, started, date, outcome...)
 ---
 # Title
 
@@ -180,7 +182,7 @@ Add `knowledge/decisions/` for:
 - Architecture choices
 - Tool selections
 
-**Format**: `YYYY-MM-DD--decision-topic.md`
+**Format**: `YYYY-MM-DD--decision-topic.md`, one file per decision. Each entry pairs `## Decision` (written at choice time: context, options, choice, reasoning, and a falsifiable predicted outcome) with `## Outcome` (filled at verification). Frontmatter tracks status — `outcome: pending` until verified, then `held`, `wrong`, or `mixed`. See `knowledge/decisions/EXAMPLE.md`. The `improve-system` skill offers to record decisions at session close and surfaces pending entries older than 30 days for verification.
 
 ### Search-First Knowledge
 

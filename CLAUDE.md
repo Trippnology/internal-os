@@ -12,6 +12,7 @@ Persistent knowledge about people, systems, and reference material.
   - `knowledge/me/experiences/` - Session learnings, breakthroughs, insights (timestamped)
 - **knowledge/customers/** - Client/customer specific context, preferences, history
 - **knowledge/frameworks/** - Frameworks, methodologies, mental models you use
+- **knowledge/decisions/** - Paired decision/outcome records: `## Decision` written at choice time (context, options, choice, falsifiable prediction), `## Outcome` filled at verification; frontmatter `outcome: pending|held|wrong|mixed`; pending entries surface for verification after 30 days (see EXAMPLE.md)
 - **knowledge/raw/** - Unprocessed reference material, raw notes, temporary storage
 - **knowledge/references.md** - Sibling-repo registry (referenced, not ingested)
 

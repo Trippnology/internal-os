@@ -10,6 +10,8 @@ Catalog of every entry in `knowledge/`, `projects/`, and `future/`. One line per
 
 ## knowledge/frameworks
 
+## knowledge/decisions
+
 ## knowledge/raw
 
 ## knowledge/references
