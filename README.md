@@ -98,7 +98,7 @@ Dedicated agents — research, drafting, whatever repeats — defined as portabl
 
 ### Knowledge (`knowledge/`)
 
-- **`me/`** — Personal context (technical profile, business, working style). `experiences/` holds timestamped learnings.
+- **`me/`** — Personal context (technical profile, business, working style; `EXAMPLE-voice.md` for a voice guide covering agent working voice and public/business voice). `experiences/` holds timestamped learnings.
 - **`customers/`** — One file per client (context, history, preferences). Use whatever location conventions fit your setup.
 - **`decisions/`** — One file per decision, paired with its later-verified outcome.
 - **`frameworks/`** — Methodologies and mental models.
