@@ -127,6 +127,15 @@ find knowledge projects -name '*.md' -mtime +180 -not -name 'EXAMPLE.md'
   - **pruned** → delete the file AND remove its MEMORY.md line
 - Never batch-prune; each prune is a deliberate user decision
 
+### 11. `[TODO: expand]` Markers
+
+Thin sections in knowledge entries are marked `[TODO: expand]` (with a note on what to add) rather than padded — the `get-started` interview and any capture flow writes them when an answer runs thin. These markers are first-class work:
+
+- Enumerate: `rg '\[TODO: expand\]' knowledge/` (projects/ too if relevant)
+- When session context touches a marked topic, fill the marker in place and remove it
+- Offer the list to the user when short on capture material — top-ups beat inventing new entries
+- Never delete a marker without filling or explicitly abandoning the section
+
 ## Implementation Steps
 
 When invoked:
@@ -146,6 +155,7 @@ When invoked:
    - **Skill candidates** - Patterns that might pass the Quality Gate
    - **Decisions** - Choices worth a `knowledge/decisions/` entry (see §9)
    - **Stale entries** - Run the Staleness Pass discovery command (see §10)
+   - **Expand markers** - Any `[TODO: expand]` the session can fill (see §11)
 
 3. **Take action:**
    - Update identified skill files
@@ -155,6 +165,7 @@ When invoked:
    - For any new skill candidate: run the Quality Gate + Dedup-Before-Create BEFORE creating
    - Record session decisions in `knowledge/decisions/` and surface pending entries >30 days old
    - Review up to 5 stale entries (oldest first); prune removes the MEMORY.md line too
+   - Fill `[TODO: expand]` markers the session touched; remove each filled marker
    - Flag structural issues for user review
 
 4. **Report back:**

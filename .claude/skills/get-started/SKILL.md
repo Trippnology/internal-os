@@ -29,7 +29,7 @@ Check the current state:
 
 ### 2. Interview — one question at a time
 
-Ask **one question per message**. Wait for the answer. Ask a brief follow-up only when the answer is unclear or thin. Topic order:
+Ask **one question per message**. Wait for the answer. Ask a brief follow-up only when the answer is unclear or thin — **one follow-up, then move on**. Topic order:
 
 1. **Background** — what kind of work do you do, how long, what domains
 2. **Stack** — languages, frameworks, tools you work in daily; anything you deliberately avoid
@@ -41,6 +41,7 @@ Rules:
 - Skip any topic the user declines
 - Never invent or infer preferences the user didn't state
 - If the user answers several topics at once, absorb it — don't re-ask
+- Thin answer after one follow-up → write what you got and mark the section `[TODO: expand]` with a note on what to add. Keep moving; the entry ships at 70%. `/improve-system` treats the markers as first-class work and can fill them later. Never pad a thin section with invented filler, never loop follow-up questions
 
 ### 3. Write the entries
 
@@ -82,7 +83,8 @@ For each chosen area, run the same one-question-at-a-time flow, write the entry,
 ## Red Flags
 
 - **"You're rushing"** — dumping all questions in one message defeats the interview. One question, one message, always.
-- **"You're inventing"** — writing plausible-sounding preferences the user never stated poisons the system. Only record what was said.
+- **"You're inventing"** — writing plausible-sounding preferences the user never stated poisons the system. Only record what was said. `[TODO: expand]` is the honest alternative to a guess.
+- **"You're padding"** — filler paragraphs to cover a thin answer are worse than a marker. Thin section → marker, move on.
 - **"You're editing the template"** — `EXAMPLE.md` files are format references; copy them, never modify them.
 
 ## Notes

@@ -247,6 +247,16 @@ trigger: When to use
 - Stable: `descriptive-name.md`
 - All lowercase, hyphen-separated
 
+### Thin Sections
+
+When an interview answer or capture is thin, write what you got and mark the gap:
+
+```markdown
+[TODO: expand] — what to add goes here
+```
+
+Ship at 70%. Three weeks of polishing kills an entry before it ships; a greppable marker (`rg '\[TODO: expand\]' knowledge/`) lets `/improve-system` treat gaps as first-class work and fill them in later sessions. Never pad a thin section with invented filler.
+
 ### Cross-References
 
 Link related entries with relative markdown links in a `## Related` section at the foot of a file, e.g. `[a-mental-model](../frameworks/a-mental-model.md)`. Update [MEMORY.md](MEMORY.md) with each new entry.
