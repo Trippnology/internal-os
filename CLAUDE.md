@@ -37,6 +37,7 @@ Available skills:
 - `improve-system` — System improvement procedures
 - `ingest-resource` — Resource ingestion workflows
 - `setup-issues` — Add the local numbered issues workflow (issues/ tree + EXAMPLE.md + .gitignore rules + CLAUDE.md note) to any project
+- `hardcore-app-audit` — Evidence-based production-readiness audit for any application type; evidence ledger, severity rubric, NOT READY / CONDITIONAL / READY verdict, remediation sequence
 
 Use `.claude/skills/skill/SKILL.md` as template for new skills.
 
