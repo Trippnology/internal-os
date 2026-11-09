@@ -39,6 +39,10 @@ Catalog of every entry in `knowledge/`, `agents/`, `processes/`, `document-templ
 
 ## document-templates
 
+### document-templates/general
+
+- [issue-template](document-templates/general/issue-template.md) — Client-facing bug report template
+
 ## projects
 
 - [project EXAMPLE](projects/EXAMPLE.md) — Project README format: context, status, tech, current state

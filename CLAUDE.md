@@ -48,6 +48,10 @@ Dedicated agent definitions (see `agents/EXAMPLE.md` for the SOUL.md format).
 
 Invoke as a persona ("start the <name> agent" — the assistant loads the SOUL.md and works in that role) or via a thin subagent wrapper in your agent platform's config pointing at the SOUL.md. The repo is the source of truth; platform configs are pointers.
 
+### document-templates/
+
+Canonical home for document templates, grouped by `general/` (and other categories as you grow them). Copy a template per use; edit the template itself here. See [MEMORY.md](MEMORY.md) for the list.
+
 ### projects/
 
 Active project work. Create one folder per project with its own `README.md` (see `projects/EXAMPLE.md` for the format).
