@@ -1,7 +1,7 @@
 ---
 name: get-started
 description: Onboard a fresh Internal OS install — interview the user one question at a time, populate knowledge/me/ from the EXAMPLE.md formats, update MEMORY.md, then offer to seed other knowledge areas.
-trigger: "/get-started", "set up my system", "interview me", "get started", or a first session in a fresh clone where knowledge/me/ contains only EXAMPLE.md
+trigger: /get-started, set up my system, interview me, get started, or a first session in a fresh clone where knowledge/me/ contains only EXAMPLE.md
 ---
 
 # Get Started

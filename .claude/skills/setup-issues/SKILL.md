@@ -1,7 +1,7 @@
 ---
 name: setup-issues
 description: Adds the local numbered issues workflow (issues/ tree + EXAMPLE.md + .gitignore rules + CLAUDE.md note) to any project.
-trigger: "/setup-issues [path]", "add issues workflow to <project>", "set up local issue tracker", or invoked when bootstrapping project-level issue tracking in a target repo.
+trigger: /setup-issues [path], add issues workflow to <project>, set up local issue tracker, or invoked when bootstrapping project-level issue tracking in a target repo.
 ---
 
 # Setup Issues

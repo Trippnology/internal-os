@@ -1,7 +1,7 @@
 ---
 name: improve-system
 description: Analyze recent session activity and update Internal OS to reflect learnings, iterations, and improvements. Also the quality gate for creating new skills, the protocol for capturing ACT NOW items at session close, decision/outcome recording (knowledge/decisions/), and the staleness pass over knowledge and project entries.
-trigger: "/improve-system" or when user asks to capture lessons, update skills, improve the system, wrap up / park / close a session, or save an ACT NOW item
+trigger: /improve-system or when user asks to capture lessons, update skills, improve the system, wrap up / park / close a session, or save an ACT NOW item
 ---
 
 # /improve-system

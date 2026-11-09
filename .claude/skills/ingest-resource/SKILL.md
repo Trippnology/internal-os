@@ -1,7 +1,7 @@
 ---
 name: ingest-resource
 description: Systematically bring external resources (articles, videos, docs, notes) into the Internal OS
-trigger: "/ingest-resource" or when user provides a URL, video, document, or asks to capture/save external content
+trigger: /ingest-resource or when user provides a URL, video, document, or asks to capture/save external content
 ---
 
 # /ingest-resource
