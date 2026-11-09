@@ -23,7 +23,7 @@ Your AI assistant (Claude Code, opencode, or similar) reads this folder at the s
 
 | Piece | What you get |
 |---|---|
-| `CLAUDE.md` | The map your AI reads every session |
+| `AGENTS.md` | The map your AI reads every session |
 | `knowledge/` | Your context: clients, frameworks, decisions, personal profile |
 | `.claude/skills/` | Repeatable procedures (checklists your AI follows) |
 | `agents/` | Dedicated AI personas with memory that survives runs |
@@ -49,7 +49,7 @@ This is a starting point, not a product — rename the folder, rebrand it, and r
 
 ### 2. Open it with your AI agent
 
-Launch your agent in the repository root. It reads `CLAUDE.md` on session start and picks up the structure and available skills automatically.
+Launch your agent in the repository root. It reads `AGENTS.md` on session start and picks up the structure and available skills automatically.
 
 ### 3. Run `/get-started`
 
@@ -98,7 +98,7 @@ internal-os/
 │                              # bug triage, deployment
 ├── projects/                  # One folder per project, each with its own README
 ├── scripts/                   # Repo health checks + tests (Node.js 22.7+, Git)
-├── CLAUDE.md                  # Project docs (read each session)
+├── AGENTS.md                  # Project docs (read each session)
 ├── README.md                  # This file
 └── MEMORY.md                  # Index of every knowledge/project entry
 ```
@@ -134,7 +134,7 @@ node --test scripts/*.test.js        # regression tests for the checks
 
 ### During a Session
 
-1. **Context is automatic** — your AI assistant reads `CLAUDE.md` on session start
+1. **Context is automatic** — your AI assistant reads `AGENTS.md` on session start
 2. **Invoke skills** — `/skill-name` for repeatable procedures
 3. **Reference knowledge** — the agent can access any file in `knowledge/`
 4. **Work in projects** — each `projects/` folder carries its own context

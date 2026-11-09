@@ -36,7 +36,7 @@ Available skills:
 - `get-started` — Onboarding interview; populates knowledge/me/ and offers to seed other areas on a fresh install
 - `improve-system` — System improvement procedures
 - `ingest-resource` — Resource ingestion workflows
-- `setup-issues` — Add the local numbered issues workflow (issues/ tree + EXAMPLE.md + .gitignore rules + CLAUDE.md note) to any project
+- `setup-issues` — Add the local numbered issues workflow (issues/ tree + EXAMPLE.md + .gitignore rules + AGENTS.md note) to any project
 - `hardcore-app-audit` — Evidence-based production-readiness audit for any application type; evidence ledger, severity rubric, NOT READY / CONDITIONAL / READY verdict, remediation sequence
 
 Use `.claude/skills/skill/SKILL.md` as template for new skills.
@@ -71,7 +71,7 @@ Sibling repos referenced but not ingested. See `knowledge/references.md` for pat
 
 ## Usage
 
-Claude reads CLAUDE.md on session start for full context. Update this file when:
+Your AI assistant reads AGENTS.md on session start for full context. Update this file when:
 
 - New folders added
 - Structure changes
