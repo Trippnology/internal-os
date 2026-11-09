@@ -37,6 +37,12 @@ Catalog of every entry in `knowledge/`, `agents/`, `processes/`, `document-templ
 
 ## processes
 
+- [project-kickoff-checklist](processes/project-kickoff-checklist.md) — Start right: scope, owners, agreements, context capture
+- [pr-review-checklist](processes/pr-review-checklist.md) — Two-pass review: intent, then correctness/security/ops verdicts
+- [release-checklist](processes/release-checklist.md) — Release gates: quality, claims, safety nets, post-release watch
+- [bug-triage-process](processes/bug-triage-process.md) — Capture → reproduce → classify (S1–S4) → own → close
+- [deployment-checklist](processes/deployment-checklist.md) — Per-deploy loop: pre-deploy, deploy, 15-minute post-deploy, hotfix path
+
 ## document-templates
 
 ### document-templates/general
