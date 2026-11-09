@@ -34,6 +34,8 @@ Catalog of every entry in `knowledge/`, `agents/`, `processes/`, `document-templ
 ## agents
 
 - [agent EXAMPLE](agents/EXAMPLE.md) — SOUL.md format template: identity, reads-from, scope, method, output, memory protocol
+- [agent roster](agents/README.md) — Dedicated agent definitions; invocation modes; how to add one
+- [research](agents/research/SOUL.md) — Research agent, persona + subagent; memory: [research-log](agents/research/memory/research-log.md)
 
 ## processes
 

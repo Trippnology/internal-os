@@ -42,7 +42,7 @@ Use `.claude/skills/skill/SKILL.md` as template for new skills.
 
 ### agents/
 
-Dedicated agent definitions (see `agents/EXAMPLE.md` for the SOUL.md format).
+Dedicated agent definitions (see `agents/README.md` for the roster and invocation modes, `agents/EXAMPLE.md` for the SOUL.md format).
 
 **Structure:** `agents/{name}/SOUL.md` + `agents/{name}/memory/`
 
